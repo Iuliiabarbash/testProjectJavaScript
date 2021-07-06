@@ -1,4 +1,3 @@
-"use strict";
 
 // alert('Hello');
 // const result = confirm("Are you here?")
@@ -21,9 +20,8 @@
 //const user = "Yulia";
 //alert(`Hello, ${user}`)
 
-
 //create viarable and insert the answer in it
-const numberOfFilms = +promt('How many movies have you seen?', ''); //enarniy + and it will be a number
+const numberOfFilms = +prompt('How many movies have you seen?', ''); //enarniy + and it will be a number
 
 //Create an object and isert next properties 
 const personalMovieDB = {
@@ -49,3 +47,6 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+
+console.log(111);
